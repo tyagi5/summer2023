@@ -11,14 +11,11 @@ body{
     margin: 50px auto 100px auto;
 }
 
-div{
-    margin: 200px;
-}
 
 h1{
     color:#285430;
     margin-bottom: 10px;
-    font-size: 8.625rem;
+    font-size: 8rem;
     font-family: 'Caveat', cursive;
 }
 
@@ -26,15 +23,16 @@ h2{
     color:#102C57;
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 5px;
-    padding-bottom: 10px;
-    padding: 0;
 }
 
 h3{
     color:#102C57;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    padding: 0;
+
 }
 
 .subheading{
@@ -55,10 +53,8 @@ hr{
 }
 
 .intro{
-    margin: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
-    position: relative;
 }
 
 .left-img{
@@ -66,6 +62,10 @@ hr{
     float: left;
     margin-right: 20px;
     margin-bottom: 0px;
+}
+
+.letter{
+    margin: 10%;
 }
 
 .right-img{
@@ -83,7 +83,15 @@ p{
     margin: 5px;
 }
 
+
 .people-info{
     margin-bottom: 100px;
     text-align: center;
+}
+
+.people-pic{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
 }
